@@ -255,4 +255,13 @@ color: #4e6783;
 }
 
 
+/*error-page*/
+.error-page{
+    font-size: 25;
+    font-weigth: bold;
+    background: url("images/404-page.jpg") no-repeat center;
+    padding-bottom: 450px;
+    text-align: center;
+}
+
 
