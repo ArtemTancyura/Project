@@ -1,0 +1,92 @@
+/*About-us page*/
+.contact-page{
+  padding: 20px 0;
+}
+
+
+.contact-page  .contact-page-title{
+  font-size: 48px;
+  text-align: center;
+  padding: 20px 0;
+}
+.first-coloumn-contact{
+  padding-top: 60px;
+  width: 40%;
+  box-sizing: border-box;
+  float: left;
+}
+.second-coloumn-contact{
+  width: 60%;
+  box-sizing: border-box;
+  float: left;
+}
+
+@media (min-width: 320px)and (max-width: 767px){
+  .second-coloumn-contact, .first-coloumn-contact{
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+  .first-coloumn-contact {
+    padding-top: 0px;
+  }
+}
+
+ul.contact-list{
+  margin: 0 auto;
+  width: 100%;
+}
+.contact-list li{
+  display:block;
+}
+@media (min-width: 32px)and (max-width: 767px){
+  .contact-list li:last-child{
+    width: 100%;
+  }
+}
+
+.contact-title{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+  color:rgb(153, 204,204);
+}
+.contact-list p.contact-content{
+
+  font-size: 12px;
+  padding: 20px 0 ;
+
+}
+.our-contacts .fa{
+  margin-right: 10px;
+  text-align: center;
+  font-size: 24px;
+  max-width: 55px;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  background-color: #dddddd;
+  border-radius: 50px;
+}
+.our-contacts .fa:hover{
+  background-color: rgb(153, 204,204);
+}
+
+.contact-page #googleMap{
+  width: 100%;
+  max-height: 300px;
+  height: 300px;
+
+}
+
+.contact-page  .google-map-title{
+  border-top: 1px solid #dddddd;
+  font-size: 18px;
+  text-align: center;
+  color: #dddddd;
+  text-transform: uppercase;
+  padding: 5px 5px;
+}
+
+
+/*Abut-us page*/

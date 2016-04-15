@@ -1,0 +1,247 @@
+/*
+Theme Name: Project
+Author: GeekHub
+Version:1.0
+Description: Now, none
+*/
+
+/*New grid 20%*/
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/*New grid 20%*/
+
+/* page form */
+.contact-form-page{
+    padding: 50px;
+}
+.contact-form-page .form-group{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.contact-form-page .form-group input{
+    margin-left: 20px;
+}
+.contact-form-page .button-default, .form-control{
+    position: relative;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 5em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image:
+            linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+            linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+.contact-form-page .button-default:hover{
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+
+/* news */
+.news-content{
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #777674;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+/*//.news-content:last-child{*/
+/*//    border-bottom: none;*/
+/*//}*/
+.news-content h2{
+    text-transform: uppercase;
+}
+.more-link {
+    margin: 0 auto;
+    display: inline-block;
+    color: green;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px 25px;
+    border: 2px solid #777674;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.more-link:hover {
+    color: #58c93a;
+    border: 2px solid #58c93a;
+}
+.news-content h2:after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: green;
+    display: block;
+    margin: 10px auto;
+    margin-right: 26%;
+}
+.news-content .post-thumbnail-news{
+    float: left;
+}
+.news-content .news-content{
+    float: left;
+}
+
+.pagin {
+    padding-left: 85%;
+    padding-bottom: 20px;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    color: #878787;
+    text-decoration: none; }
+
+.navigation li {
+    display: inline; }
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    background-color: #e7e7e7;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+    background-color: red;
+    color: white;
+}
+
+/* dropdown menu */
+.product-menu-item{
+    position: relative;
+}
+.sub-menu{
+    display:none;
+    position: absolute;
+}
+.product-menu-item:hover .sub-menu{
+    display: block;
+    background: white;
+}
+
+/* sidebar */
+.sidebar{
+    width: 25%;
+    float: right;
+}
+.sidebar .most-popular-item li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.sidebar .most-popular-item a{
+    display: block;
+    color: #777674;;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+    font-weight: bold;
+}
+.sidebar .most-popular-item a:hover{
+    background: #ccc;
+    color: white;
+}
+.sidebar .most-popular-title{
+    padding-left: 5%;
+color: #4e6783;
+}
+.sidebar .money-item{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+.sidebar .exchange-item{
+    margin-top: 50px;
+
+    border: 2px solid #ccc;
+}
+.sidebar .exchange-title{
+    color: white;
+    background: #4e6783;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* social icons */
+.social{
+    padding-left: 32%;
+}
+
+.social li {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 20px;
+}
+.social a{
+    display: block;
+    padding:10px 12px;
+    background: #777674;
+    border-radius: 20px;
+    color: white;
+}
+.social .fa-facebook {
+    padding: 4px;
+}
+.social .fa-instagram{
+    padding: 2px;
+}
+.social .fa-twitter{
+    padding: 1px;
+}
+
+
+
