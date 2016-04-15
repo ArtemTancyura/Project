@@ -20,12 +20,12 @@
     <!--Site logo-->
 
     <!-- hd-search -->
-            <div class="hd-search col-xs-12 col-sm-6 col-md-2 col-lg-4 clearfix">
+            <div class="hd-search col-xs-12 col-sm-6 col-md-4 col-lg-4 clearfix">
                 <?php get_search_form(); ?>
             </div>
     <!-- hd-search -->
     <!-- Social -->
-            <div class="clearfix social col-xs-12 col-sm-6 col-md-6 col-lg-4" id="social">
+            <div class="clearfix social col-xs-10 col-sm-6 col-md-4 col-lg-4" id="social">
                 <ul class="social">
                     <li><a href="#"><span class="fa fa-youtube" aria-hidden="true"></span></a></li>
                     <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -35,9 +35,9 @@
 
             </div>
 
-    <!-- Social -->
+    <!-- Social --><div class="gamburger clearfix " onclick="showmenu()"></div>
             <nav class="site-nav clearfix">
-                    <div class="gamburger " onclick="showmenu()"></div>
+
                 <?php
 
                 $args = array(

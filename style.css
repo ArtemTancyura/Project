@@ -244,4 +244,15 @@ color: #4e6783;
 }
 
 
+.home-product-title{
+    padding: 5px;
+    background: #777674;
+    color: white;
+}
+.recent-post-item{
+    margin-bottom: 35px;
+    border: 1px solid #777674;
+}
+
+
 

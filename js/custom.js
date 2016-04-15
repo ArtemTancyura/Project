@@ -22,7 +22,7 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
     $(window).resize(function () {
-        if ($(window).width() > 700) {
+        if ($(window).width() > 800) {
             $(".primary-mobile-nav").css('display', 'none');
         }
         else {
@@ -57,7 +57,7 @@ jQuery(document).ready(function ($)  {
 
     // tiny helper function to add breakpoints
     function getGridSize() {
-        return (window.innerWidth < 720) ? 2 :
+        return (window.innerWidth < 820) ? 2 :
             (window.innerWidth < 1200) ? 3 : 4;
     }
 
